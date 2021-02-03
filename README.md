@@ -32,7 +32,9 @@ Once you upload an image to your repository, you can link link to it like this (
 
 The data should be collected on a daily and ongoing basis from the user of the application. The data amount grows and improves the performance of the application gradually. It is collected by inputting preferences and rating the new dishes proposed by the application. Therefore, the data would be formatted as ingredients and combinations of them. Some cooking processes should also be considered in the data and have associated "health values" and "preference values".
 
-Concerning AI methods, for the generation of new dishes, I think Artificial Neural Networks would be helpful to produce entirely new dishes (Generative Adversarial Networks) and/or variations (Variational AutoEncoders). The process of making the ingredients into a dish can be simulated by a Feed-forward Neural Network or a Convolutional Neural Network. Also, since Neural Networks use vectorized representations to operate, recommendation algorithms can be directly used. 
+Concerning AI methods, for the generation of new dishes, I think Artificial Neural Networks would be helpful to produce entirely new dishes (Generative Adversarial Networks) and/or variations (Variational AutoEncoders). The process of making the ingredients into a dish can be simulated by a Feed-forward Neural Network or a Convolutional Neural Network. Also, since Neural Networks use vectorized representations to operate, recommendation algorithms can be directly used. Some illustrations of main idea for the project are shown below.
+
+![Top level architecture](https://github.com/tinthebear/BuildingAIProject/TLArch.png)
 
 ## Challenges
 
