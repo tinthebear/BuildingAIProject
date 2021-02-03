@@ -34,7 +34,7 @@ The data should be collected on a daily and ongoing basis from the user of the a
 
 Concerning AI methods, for the generation of new dishes, I think Artificial Neural Networks would be helpful to produce entirely new dishes (Generative Adversarial Networks) and/or variations (Variational AutoEncoders). The process of making the ingredients into a dish can be simulated by a Feed-forward Neural Network or a Convolutional Neural Network. Also, since Neural Networks use vectorized representations to operate, recommendation algorithms can be directly used. Some illustrations of main idea for the project are shown below.
 
-![Top level architecture](https://github.com/tinthebear/BuildingAIProject/TLArch.png)
+![Top level architecture](/TLArch.png)
 
 ## Challenges
 
