@@ -4,76 +4,45 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Final project for the Building AI course
+Meal creator
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+The goal of the project is to produce new dishes customized for each person's preferences. The dishes should be balanced from a nutrition and health standpoint. It would use a combination of AI technologies to produce dishes.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+* Which problems does your idea solve? The idea is meant to guide a person into eating healthy and according to their preference, and to discover new dishes. 
+* How common or frequent is this problem? This is a daily problem, as people need to eat everyday, and eating healthy is a current important concern. 
+* What is your personal motivation? My personal motivation behind this project is that I love all kind of food, and do not eat very healthy. 
+* Why is this topic important or interesting? I think this project could help people decide what to eat and discover new "person-tailored" food combination recipes.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The application is meant to work continously, learning from the person's preferences everyday. This solution can be used everyday in the context of cooking at home at any time of day for meals. The user of this application is anyone who wishes to eat something new and that the application recommends based on his/her own preferences. It is important that the user inputs the preferences and marks ingredients and/or dishes that he/she likes or doesn't.
 
-Images will make your README look nice!
+<!-- Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg) -->
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+<!-- If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300"> -->
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The data should be collected on a daily and ongoing basis from the user of the application. The data amount grows and improves the performance of the application gradually. It is collected by inputting preferences and rating the new dishes proposed by the application. Therefore, the data would be formatted as ingredients and combinations of them. Some cooking processes should also be considered in the data and have associated "health values" and "preference values".
+
+Concerning AI methods, for the generation of new dishes, I think Artificial Neural Networks would be helpful to produce entirely new dishes (Generative Adversarial Networks) and/or variations (Variational AutoEncoders). The process of making the ingredients into a dish can be simulated by a Feed-forward Neural Network or a Convolutional Neural Network. Also, since Neural Networks use vectorized representations to operate, recommendation algorithms can be directly used. 
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The project is not a large database of cooking recipes. The idea is to produce new, healthy and tasty dishes based on previous experience, but it does not teach a person how to cook. I think the limitations are that the application would not work right away, since it needs to "get to know" the user. Other considerations to take into account, perhaps include some more constraints, such as religious or regional restrictions. 
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+I see that the major challenge is in "combining" the ingredients into a dish. However, I see that the generative architectures and recommendation functionalities should not be that complicated to integrate. I am a novice in implementing Neural Networks, so I would have to study more, and practice more implementation.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Thermomix
+* Great cooks (such as Gastón Acurio)
