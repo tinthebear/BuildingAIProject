@@ -40,7 +40,11 @@ Top-level architecture:
 
 Generators (A: Variations, B: New dishes):
 
-<img src="/TLArch.png" width="500">
+<img src="/Generation.png" width="500">
+
+Cook CNN:
+
+<img src="/CookCNN.png" width="500">
 
 
 ## Challenges
