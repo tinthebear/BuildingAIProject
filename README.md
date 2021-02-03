@@ -2,9 +2,9 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# Meal creator
 
-Meal creator
+An AI-based architecture for creating new dishes.
 
 ## Summary
 
